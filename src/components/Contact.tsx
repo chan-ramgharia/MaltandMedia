@@ -37,7 +37,7 @@ const Contact = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/contact", // <-- your backend endpoint
+        "https://maltandmedia.onrender.com", // <-- your backend endpoint
         {
           method: "POST",
           headers: {
